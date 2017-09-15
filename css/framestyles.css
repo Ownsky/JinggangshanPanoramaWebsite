@@ -1,0 +1,158 @@
+.navbar-default {
+    background-color: #e74c3c;
+    border-color: #c0392b;
+    border-radius: 0;
+    margin-bottom: 0;
+
+}
+.navbar-default .navbar-brand {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fdcaca;
+}
+.navbar-default .navbar-text {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fdcaca;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fdcaca;
+    background-color: #c0392b;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fdcaca;
+    background-color: #c0392b;
+}
+.navbar-default .navbar-toggle {
+    border-color: #c0392b;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #c0392b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+    color: #fdcaca;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fdcaca;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #fdcaca;
+        background-color: #c0392b;
+    }
+}
+
+.map-container {
+    height:100%;
+}
+
+.btn-default {
+    background-color: #2aaaff;
+    color: #fefefe;
+}
+.btn-default:focus,
+.btn-default.focus {
+    background-color: #2aaaff;
+    color: #fefefe;
+}
+.btn-default:hover {
+    background-color: #2aaaff;
+    color: #fefefe;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    background-color: #2b79ff;
+    color: #fefefe;
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+    background-color: #2b79ff;
+    color: #fefefe;
+}
+
+.innerImg-container {
+     height: 100%;
+ }
+
+.innerTitle {
+    margin: 0;
+}
+
+.backgroundLayer
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /*opacity: 0.7;*/
+    background-color: rgba(0,0,0,0.7);
+    z-index: 9999;
+}
+
+.floatLayer
+{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    opacity: 1;
+    background-color: white;
+    z-index: 10000;
+}
+
+.pLayer
+{
+    position: absolute;
+    width: 96%;
+    height: 96%;
+    left: 2%;
+    top: 2%;
+}
+
+.closeBtn
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -10px;
+    top: -10px;
+}
