@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>井冈山全景</title>
+    <title>关于</title>
     <style type="text/css">
         html{height:100%}
         body{height:100%;margin:0px;padding:0px}
@@ -28,9 +28,8 @@
     <!-- Baidu Map -->
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=0wmmnSPavM2cqkperW0Xxor8Xz544nwi"></script>
 
-    <script type="text/javascript" src="js/windowAction.js" > </script>
 </head>
-<body onresize="onResize()">
+<body>
 
 
 
@@ -47,26 +46,30 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse" aria-expanded="false">
             <ul class="nav navbar-nav ">
-                <li class="active"><a href="#">景区地图</a></li>
+                <li ><a href="./index.html">景区地图</a></li>
                 <!--<li><a href="introduce.html">景区介绍</a></li>-->
-                <li><a href="./about.html">关于</a></li>
+                <li class="active"><a href="#">关于</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<div id="map-container" class="map-container"></div>
-<script type="text/javascript" src="js/baiduMap.js"></script>
-
-<div id="panoramaLayer">
-    <!--<iframe src="http://720yun.com/t/d3ejzskwrO6" frameborder="no" width="700" height="500" />-->
+<div class="aboutCard">
+    <h1 align="center" class="animation1">我们是周口师范学院"载梦起飞"团队</h1>
 </div>
+
 
 <div id="footer" class="navbar-fixed-bottom">
     <p align="center" class="foot">
         ©2017 载梦起飞   吉ICP备17004537号  Powered by BugJLU.org/Ownsky
     </p>
 </div>
+<!--<div id="map-container" class="map-container"></div>-->
+<!--<script type="text/javascript" src="js/baiduMap.js"></script>-->
+
+<!--<div id="panoramaLayer">-->
+    <!--&lt;!&ndash;<iframe src="http://720yun.com/t/d3ejzskwrO6" frameborder="no" width="700" height="500" />&ndash;&gt;-->
+<!--</div>-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>

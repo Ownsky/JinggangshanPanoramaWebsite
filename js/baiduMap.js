@@ -87,6 +87,7 @@ function showPanorama(name) {
 
         var pLayer = document.getElementById("panoramaLayer");
         var iframe = document.createElement("iframe");
+        iframe.setAttribute("id", "iframe");
         iframe.setAttribute("src", url);
         iframe.setAttribute("frameBorder", "no");
         iframe.className = "pLayer";
@@ -101,6 +102,7 @@ function showPanorama(name) {
         pbg.className = "backgroundLayer";
 
         var pfg = document.createElement("div");
+        pfg.setAttribute("id", "pfgLayer");
         pfg.className = "floatLayer";
         // pfg.style.left = winw / 2 - 375;
         // pfg.style.top = winh / 2 - 275;
@@ -109,6 +111,8 @@ function showPanorama(name) {
 
         pbg.appendChild(pfg);
         pLayer.appendChild(pbg);
+
+        onResize();
     }
         // window.location.href=url;
 }

@@ -156,3 +156,65 @@
     right: -10px;
     top: -10px;
 }
+
+.aboutCard
+{
+    position: absolute;
+    width: 100%;
+    /*height: 60%;*/
+    /*border-radius: 2%;*/
+    /*border-color: #2b79ff;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    top: 20%;
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+
+@keyframes anim1
+{
+    from {
+        color: transparent;
+        top:0%;}
+    to {top: 20px}
+}
+
+@-moz-keyframes anim1 /* Firefox */
+{
+    from {
+        color: transparent;
+        top:0%;}
+    to {top: 20px}
+}
+
+@-webkit-keyframes anim1 /* Safari and Chrome */
+{
+    from {
+        color: transparent;
+        top:0%;}
+    to {top: 20px}
+}
+
+@-o-keyframes anim1 /* Opera */
+{
+    from {
+        color: transparent;
+        top:0%;}
+    to {top: 20px}
+}
+
+.animation1{
+    animation: anim1 1s;
+    -moz-animation: anim1 1s;
+    -webkit-animation: anim1 1s;
+    -o-animation: anim1 1s;
+    top: 20px; position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: fit-content;
+}
+
+.foot {
+    color: #888888; font-size: 1em;
+    font-weight: 200;
+}
